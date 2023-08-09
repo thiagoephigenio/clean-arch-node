@@ -17,7 +17,15 @@ module.exports = {
   },
   ignorePatterns: ['.eslintrc.js'],
   rules: {
-    "eqeqeq": "error"
+    "eqeqeq": "error",
+    "indent": ["error", 2],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ]
     // '@typescript-eslint/interface-name-prefix': 'off',
     // '@typescript-eslint/explicit-function-return-type': 'off',
     // '@typescript-eslint/explicit-module-boundary-types': 'off',
