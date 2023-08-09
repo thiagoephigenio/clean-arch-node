@@ -1,7 +1,7 @@
 {
     "husky": {
         "hooks": {
-            "pre-commit": "eslint 'src/**' --fix"
+            "pre-commit": "lint-staged"
         }
     }
 }
